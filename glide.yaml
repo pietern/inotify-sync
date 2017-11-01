@@ -1,2 +1,4 @@
 package: github.com/pietern/ossci-ccache-sync
-import: []
+import:
+- package: github.com/fsnotify/fsnotify
+  version: ~1.4.2

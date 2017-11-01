@@ -1,0 +1,6 @@
+hash: 3f48db59f12c3b775e6d2d3b36e75dc16197f0b100682eba271b8bffd90331b1
+updated: 2017-11-01T09:34:03.921675389-07:00
+imports:
+- name: github.com/fsnotify/fsnotify
+  version: 629574ca2a5df945712d3079857300b5e4da0236
+testImports: []
