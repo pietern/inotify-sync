@@ -324,6 +324,8 @@ func main() {
 		wg.Done()
 	}()
 
+	log.Println("started")
+
 	// Wait for SIGINT
 	c := make(chan os.Signal, 1)
 	signal.Notify(c, os.Interrupt)
