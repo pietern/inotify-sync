@@ -1,6 +1,12 @@
-hash: 3f48db59f12c3b775e6d2d3b36e75dc16197f0b100682eba271b8bffd90331b1
-updated: 2017-11-01T09:34:03.921675389-07:00
+hash: cbfcd88fa0bdfc14795b8e0d26742302f6a64ff7fdefec4e2b4b6e1e2f3d0b9f
+updated: 2017-11-01T10:31:51.461477745-07:00
 imports:
 - name: github.com/fsnotify/fsnotify
   version: 629574ca2a5df945712d3079857300b5e4da0236
+- name: github.com/go-redis/redis
+  version: d0f86971b5d61de9cebd2616b932acb7ba14d957
+- name: golang.org/x/sys
+  version: 95c6576299259db960f6c5b9b69ea52422860fce
+  subpackages:
+  - unix
 testImports: []
