@@ -17,6 +17,7 @@ import (
 )
 
 var ignoreBasePatterns = []string{
+	"ccache.conf*",
 	"stats*",
 	"*.tmp.*",
 	"*.o.*",
